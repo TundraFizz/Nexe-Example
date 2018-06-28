@@ -1,0 +1,17 @@
+{
+  "name": "nexe-example",
+  "version": "1.0.0",
+  "description": "Small example on how to use Nexe",
+  "main": "main.js",
+  "author": "Tundra Fizz",
+  "license": "ISC",
+  "dependencies": {
+  },
+  "scripts": {
+    "start": "node main.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/TundraFizz/Nexe-Example"
+  }
+}
