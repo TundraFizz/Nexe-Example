@@ -5,10 +5,11 @@
   "main": "main.js",
   "author": "Tundra Fizz",
   "license": "ISC",
-  "dependencies": {
-  },
+  "dependencies": {},
   "scripts": {
-    "start": "node main.js"
+    "start": "node main.js",
+    "build": "node ./build/build.js",
+    "clean": "node ./build/clean.js"
   },
   "repository": {
     "type": "git",
