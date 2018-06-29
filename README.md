@@ -6,7 +6,16 @@ In order for Nexe to work, you need to ensure that you can first build Node from
 * [NetWide Assembler](https://nasm.us/)
 * [Visual Studio 2017 build tools](https://google.com/search?q=visual+studio+2017+build+tools+download)
 
-Important; be sure to add Python and NASM to your [environment variables path](https://google.com/search?q=add+to+environment+variables+path)!
+Now make sure that the following are added to your [environment variables path](https://google.com/search?q=add+to+environment+variables+path):
+
+* Python 2.7
+* NetWide Assembler
+
+Clone the official Node repository: https://github.com/nodejs/node.git
+
+Run the file: `vcbuild.bat`
+
+You shouldn't see any errors, and when it's done a new folder called `Release` will have appeared with a working `node.exe` inside of it
 
 For more information on building Node from source, check out the below page:
 
