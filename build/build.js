@@ -2,7 +2,7 @@ var nexe = require("nexe");
 
 nexe.compile({
   output: "example",
-  target: "win32-x86-8.11.3",
+  target: "windows-x86-9.11.1",
   resources: [""],
   ico: "./build/icon.png",
   build: true
